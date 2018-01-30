@@ -1,5 +1,8 @@
 import urllib.request
-print(dir(urllib.request))
+import zlib
+import doctest
+import unittest
+print(dir(doctest))
 class Complex:
     def __init__(self, realpart, imagpart):
         self.r = realpart
